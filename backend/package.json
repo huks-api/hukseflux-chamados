@@ -1,0 +1,29 @@
+{
+  "name": "hukseflux-backend",
+  "version": "1.0.0",
+  "description": "API para o sistema de chamados t\u00e9cnicos da Hukseflux Brasil - Integrado com MongoDB",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "dev": "nodemon servidor.js"
+  },
+  "keywords": [
+    "express",
+    "hukseflux",
+    "chamados",
+    "api",
+    "sigma",
+    "monitoramento-solar"
+  ],
+  "author": "Matheus - Hukseflux Brasil",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
